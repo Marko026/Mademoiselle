@@ -1,0 +1,24 @@
+$color-icon:#ECD9D9;
+.footer{
+    .social{
+        a{
+        transition: 0.7s linear;
+            margin-left:30px;
+            font-size:2rem;
+            color: $color-icon;
+            &:hover{
+                transform: rotate(360deg);
+            }
+        }
+    }
+    p{
+        font-size:1.2rem;
+        line-height:4.1rem;
+        letter-spacing:-0.14px;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,49 @@
+
+
+/* 
+
+  For resolutions bigger then > 0px XS - NO NAME
+
+For resolutions bigger then > 576px SM - SMALL DEVICES
+
+For resolutions bigger then > 768px MD - MEDIUM DEVICES
+
+
+For resolutions bigger then > 992px LG - LARGE DEVICES
+
+For resolutions bigger then > 1200px XL - EXTRA aLARGE DEVICES
+
+
+ */
+
+@media only screen and (min-width:576px){
+
+
+
+
+
+}
+
+
+@media only screen and (min-width:768px){
+
+
+
+
+}
+
+
+@media only screen and (min-width:992px){
+
+
+
+    
+}
+
+
+@media only screen and (min-width:1200px){
+
+
+
+    
+}

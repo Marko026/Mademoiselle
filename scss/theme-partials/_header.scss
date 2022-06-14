@@ -1,0 +1,109 @@
+$toggler-bg-color:#1e1e1e;
+header{
+    .navbar{
+        padding:27px 0px;
+        .navbar-toggler{
+            span{
+                display:block;
+                width: 30px;
+                height: 3px;
+                background-color:rgba($toggler-bg-color,0.6);
+                margin-bottom: 5px;
+                &:last-of-type{
+                    margin-bottom:0;
+                }
+            }
+        }
+    }
+    .navbar-nav{
+        li{
+            a{
+                text-transform: uppercase;
+                font-weight:$font-weight-normal;
+                line-height:1.7rem;
+                letter-spacing:1px;
+                font-size:1.4rem;
+                &:hover{
+                    border-bottom:1px solid #ECD9D9 ;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 320px){
+    header{
+        .navbar{
+            align-items: center;
+            .navbar-brand{
+                display:block;
+                width: 50%;
+            }
+            .navbar-nav{
+                li{
+                    a{
+                        margin-top: 10px;
+                    };
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px){
+    header{
+        .navbar{
+            .navbar-brand{
+                display:block;
+                width: 25%;
+            }
+            .navbar-nav{
+                li{
+                    margin-left: 32px;
+                    a{
+                        margin-top: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 992px){
+    header{
+        .navbar{
+            .navbar-brand{
+                display:block;
+                width: 20%;
+            }
+            .navbar-nav{
+                li{
+                    margin-left: 72px;
+                }
+            }
+        }
+    }
+}
+
+//service-single
+
+@media (min-width: 320px){
+    .navbar-single{
+        .nav-item{
+            .active{
+                    border:none;
+            }
+        }
+    }
+}
+@media (min-width: 768px){
+    .navbar-single{
+        .nav-item{
+            .active{
+                    border-bottom:1px solid #ECD9D9 ;
+            }
+        }
+    }
+}
+
+
+

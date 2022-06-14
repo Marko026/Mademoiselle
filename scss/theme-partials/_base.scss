@@ -1,0 +1,19 @@
+
+$text-color:#1e1e1e;
+
+
+img{
+    max-width: 100%;
+}
+body {
+    color:$text-color;
+    font-family: $lato;
+}
+h2{
+    font-family: $bodoni;
+    font-size:3rem;
+    line-height:4.5rem;
+    letter-spacing:5px;
+    text-transform:uppercase;
+    font-weight:$font-weight-light;
+}

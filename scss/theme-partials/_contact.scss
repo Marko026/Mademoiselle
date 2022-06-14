@@ -1,0 +1,52 @@
+
+
+$contact-data-bg:#ECD9D9;
+@media(min-width: 768px){
+    .contact{
+        .map{
+            iframe{
+                position:absolute;
+                 right: 0;
+                 max-width:50%;
+                 height:100%;
+            }
+        }
+     }
+}
+.contact{
+    margin:102px 0px;
+    .contact-page-title{
+        font-size:2.5rem;
+        line-height:4.5rem;
+        letter-spacing:5px;
+    }
+    button:hover{
+        background-color: #ECD9D9 ;
+    }
+    .contact-form{
+        .form-control{
+            background-color: $gray-100;
+            border:none;
+            padding:15px 19px;
+            margin-bottom:15px;
+    }
+    textarea{
+        resize:none;
+    }
+}
+}
+.contact-data{
+    padding:50px 0px;
+    background-color: $contact-data-bg ;
+    margin-bottom:80px  ;
+
+    .contact-link-page{
+        display: block;
+        margin-bottom: 15px;
+        font-family: $lato;
+        font-size:2.4rem;
+        font-weight:$font-weight-lighter;
+        text-decoration: none!important;
+        color: $text-color;
+    }
+}

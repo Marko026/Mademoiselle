@@ -1,0 +1,33 @@
+
+
+.error-page{
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position:center;
+    
+    width:100%;
+    .erorr-title{
+        text-transform: capitalize;
+        font-size:6rem;
+        font-weight:100;
+        line-height:8.4rem;
+        letter-spacing:2rem;
+    }
+}
+@media (min-width: 992px){
+    .erorr-title{
+        padding:20rem 25rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
